@@ -4,7 +4,7 @@ int main()
 {
     system("Color 01");
 
-    // Panggil fungsi gameStart saat program dimulai
+    // Panggil fungsi gameStart ketika program dimulai
     gameStart();
 
     return 0;
