@@ -23,29 +23,30 @@ typedef struct {
 Playerhs leaderboard[LEADERBOARD_SIZE];
 
 // Deklarasi Fungsi dan Prosedur
-void gameStart();
 
-void rulesPlaying();
+void gameStart(); //Prosedure gameStart
 
-void displayLeaderboards();
+void rulesPlaying(); //Prosedure rulesPlaying
 
-void leaderboards();
+void displayLeaderboards(); //Prosedure displayLeaderboards
 
-void playing();
+void leaderboards(); //Prosedure leaderboards
 
-void mainMenu();
+void playing(); //Prosedure playing
 
-void gameMode();
+void mainMenu(); //Prosedure mainMenu
 
-void inputPlayer();
+void gameMode(); //Prosedure gameMode
 
-void displayBoard(char board[10][10]);
+void inputPlayer(); //Prosedure inputPlayer
 
-int checkWin(char board[10][10], int size, char player);
+void displayBoard(char board[10][10]); //Prosedure displayBoard
 
-void initializeBoard(char board[10][10], int size);
+int checkWin(char board[10][10], int size, char player); //Function checkWin
 
-void stagegame();
+void initializeBoard(char board[10][10], int size); //Prosedure initializeBoard
+
+void stagegame(); //Prosedure stagegame
 
 void difficulty();
 
